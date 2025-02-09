@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const steps = [
-  { number: '1', title: 'Sign Up', text: 'Sign up for your 15-day free trial (No commitment) + Get the Nutrition eBook' },
+  { number: '1', title: 'Sign Up', text: 'Sign up for your 14-day free trial (No commitment) + Get the Nutrition eBook' },
   { number: '2', title: 'Assessment', text: 'Complete our fitness evaluation' },
   { number: '3', title: 'Get Plan', text: 'Receive personalized workout plan' },
   { number: '4', title: 'Start Training', text: 'Train with my app, track progress & start seeing results!' }

@@ -50,7 +50,7 @@ class FAQ extends React.Component {
       },
       {
         id: 6,
-        question: "What happens after the 15-day trial?",
+        question: "What happens after the 14-day trial?",
         answer: "Your membership automatically continues at $29.99/month unless you cancel. You'll keep full app access, 1:1 support and any future eBook updates."
       },
     ];

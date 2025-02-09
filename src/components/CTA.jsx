@@ -88,7 +88,7 @@ class CTA extends React.Component {
                 className="bg-white text-red-600 font-bold py-4 px-12 rounded-lg text-lg hover:bg-gray-50 transition-all flex items-center gap-3 mx-auto shadow-xl"
               >
                 <FaDumbbell className="text-xl" />
-                Start 15-Day Free Trial
+                Start 14-Day Free Trial
               </motion.button>
             </a>
           </motion.div>

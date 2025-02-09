@@ -134,7 +134,7 @@ class Footer extends React.Component {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.9 }}
             >
-              🔄 You can cancel the trial anytime during the 15 days and still keep the ebook
+              🔄 You can cancel the trial anytime before 14 days and still keep the ebook
             </motion.p>
             
             <motion.p
@@ -142,7 +142,7 @@ class Footer extends React.Component {
               animate={{ opacity: 1 }}
               transition={{ delay: 1.1 }}
             >
-              💳 Recurring billing starts automatically on day 16 - manage in your account
+              💳 Recurring billing starts automatically on day 15 - manage in your account
             </motion.p>
           </motion.div>
 

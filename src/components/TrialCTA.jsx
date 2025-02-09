@@ -15,7 +15,7 @@ class TrialCTA extends React.Component {
                 <div>
                   <GiWeightLiftingUp className="text-red-500 text-4xl mx-auto mb-4" />
                   <h3 className="text-xl font-semibold">Full App Access</h3>
-                  <p className="text-gray-600">15 Days of Workouts + Tracking + Coach Support</p>
+                  <p className="text-gray-600">14 Days of Workouts + Tracking + Coach Support</p>
                 </div>
                 <div>
                   <FaBookReader className="text-red-500 text-4xl mx-auto mb-4" />
