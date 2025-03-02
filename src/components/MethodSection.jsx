@@ -24,7 +24,7 @@ class MethodSection extends React.Component {
                 className="text-4xl font-bold mb-8"
               >
                 The Science-Based Fat Loss Method
-                <span className="block text-red-500 text-xl mt-3">12+ Years Perfected</span>
+                <span className="block text-blue-500 text-xl mt-3">12+ Years Perfected</span>
               </motion.h2>
 
               <div className="space-y-6">
@@ -34,7 +34,7 @@ class MethodSection extends React.Component {
                   whileInView={{ x: 0 }}
                   viewport={{ once: true }}
                 >
-                  <div className="bg-red-500 p-3 rounded-lg mr-4">
+                  <div className="bg-blue-500 p-3 rounded-lg mr-4">
                     <FaFire className="text-white text-2xl" />
                   </div>
                   <div>
@@ -53,7 +53,7 @@ class MethodSection extends React.Component {
                   transition={{ delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <div className="bg-red-500 p-3 rounded-lg mr-4">
+                  <div className="bg-blue-500 p-3 rounded-lg mr-4">
                     <FaDumbbell className="text-white text-2xl" />
                   </div>
                   <div>
@@ -71,7 +71,7 @@ class MethodSection extends React.Component {
                   transition={{ delay: 0.4 }}
                   viewport={{ once: true }}
                 >
-                  <div className="bg-red-500 p-3 rounded-lg mr-4">
+                  <div className="bg-blue-500 p-3 rounded-lg mr-4">
                     <FaAppleAlt className="text-white text-2xl" />
                   </div>
                   <div>
@@ -89,7 +89,7 @@ class MethodSection extends React.Component {
                   transition={{ delay: 0.6 }}
                   viewport={{ once: true }}
                 >
-                  <div className="bg-red-500 p-3 rounded-lg mr-4">
+                  <div className="bg-blue-500 p-3 rounded-lg mr-4">
                     <FaMobileAlt className="text-white text-2xl" />
                   </div>
                   <div>
@@ -107,7 +107,7 @@ class MethodSection extends React.Component {
                 >
               <motion.button
                 whileHover={{ scale: 1.05 }}
-                className="mt-8 bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg"
+                className="mt-8 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg"
               >
                 Start Your Custom Plan
               </motion.button>
@@ -126,7 +126,7 @@ class MethodSection extends React.Component {
                 alt="Fat Loss Method" 
                 className="rounded-xl shadow-2xl"
               />
-              <div className="absolute -bottom-6 -left-6 bg-red-900 text-red-100 p-4 rounded-xl shadow-lg">
+              <div className="absolute -bottom-6 -left-6 bg-blue-900 text-blue-100 p-4 rounded-xl shadow-lg">
                 <div className="text-2xl font-bold">83%</div>
                 <div className="text-sm">Average Fat Loss Success Rate</div>
               </div>

@@ -81,7 +81,7 @@ class FAQ extends React.Component {
                   <motion.span
                     animate={{ rotate: this.state.activeQuestionId === faq.id ? 180 : 0 }}
                   >
-                    <FiChevronDown className="text-red-500 text-xl" />
+                    <FiChevronDown className="text-blue-500 text-xl" />
                   </motion.span>
                 </button>
 
@@ -93,7 +93,7 @@ class FAQ extends React.Component {
                       exit={{ opacity: 0, height: 0 }}
                       className="overflow-hidden"
                     >
-                      <div className="px-6 pb-4 pt-2 border-t border-red-100">
+                      <div className="px-6 pb-4 pt-2 border-t border-blue-100">
                         <p className="text-gray-600 leading-relaxed">
                           {faq.answer}
                         </p>

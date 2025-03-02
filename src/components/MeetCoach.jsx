@@ -19,9 +19,9 @@ class MeetCoach extends React.Component {
               <img 
                 src="/assets/coach-photo.jpg" 
                 alt="Coach Diego Trainer"
-                className="rounded-xl shadow-2xl transform group-hover:scale-105 transition-transform duration-300"
+                className="rounded-xl shadow-2xl transform group-hover:scale-105 transition-transform duration-300 max-w-full h-auto"
               />
-              <div className="absolute -bottom-6 right-6 bg-red-500 text-white p-4 rounded-lg shadow-lg">
+              <div className="absolute -bottom-6 right-6 bg-blue-500 text-white p-4 rounded-lg shadow-lg">
                 <span className="block text-2xl font-bold">12+</span>
                 <span className="text-sm">Years Experience</span>
               </div>
@@ -37,7 +37,7 @@ class MeetCoach extends React.Component {
                 className="text-4xl font-bold mb-6"
               >
                 Meet Your Fat Loss Expert
-                <span className="block text-red-500 text-3xl mt-2">Coach Diego Trainer</span>
+                <span className="block text-blue-500 text-3xl mt-2">Coach Diego Trainer</span>
               </motion.h2>
 
               <p className="text-lg text-gray-600 mb-8">
@@ -54,7 +54,7 @@ class MeetCoach extends React.Component {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                 >
-                  <FaMedal className="text-red-500 text-2xl mr-3" />
+                  <FaMedal className="text-blue-500 text-2xl mr-3" />
                   <div>
                     <h3 className="font-bold">Specialization</h3>
                     <p className="text-gray-600 text-sm">Body Fat Reduction</p>
@@ -68,7 +68,7 @@ class MeetCoach extends React.Component {
                   transition={{ delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <FaDumbbell className="text-red-500 text-2xl mr-3" />
+                  <FaDumbbell className="text-blue-500 text-2xl mr-3" />
                   <div>
                     <h3 className="font-bold">Training Style</h3>
                     <p className="text-gray-600 text-sm">Metabolic Conditioning</p>

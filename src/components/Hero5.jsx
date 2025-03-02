@@ -10,11 +10,11 @@ class Hero5 extends React.Component {
             <div className="max-w-6xl mx-auto text-center">
               <h1 className="text-5xl font-bold mb-6">
                 Start Burning Fat Today<br />
-                <span className="text-red-500">Free 15-Day Trial</span> + eBook
+                <span className="text-blue-500">Free 15-Day Trial</span> + eBook
               </h1>
               
               <div className="mb-8 flex items-center justify-center space-x-4">
-                <GiBookStorm className="text-red-500 text-4xl" />
+                <GiBookStorm className="text-blue-500 text-4xl" />
                 <span className="text-xl">"Fat Loss Fast Track" eBook Included</span>
               </div>
     
@@ -24,7 +24,7 @@ class Hero5 extends React.Component {
                 href="https://apps.apple.com/us/app/your-app-name/idAPP_STORE_ID" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg text-lg mb-6"
+                className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg mb-6"
               >
                 <div className="flex items-center justify-center">
                   <FaDownload className="mr-3" />

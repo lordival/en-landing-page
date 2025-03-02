@@ -38,12 +38,12 @@ class Footer extends React.Component {
             >
               <h3 className="text-xl font-bold mb-4">Quick Links</h3>
               <ul className="text-gray-400">
-                <li className="mb-2"><a href="#home" className="hover:text-red-500">Home</a></li>
-                <li className="mb-2"><a href="#features" className="hover:text-red-500">Features</a></li>
-                <li className="mb-2"><a href="#coach" className="hover:text-red-500">About the Coach</a></li>
-                <li className="mb-2"><a href="#results" className="hover:text-red-500">Client Results</a></li>
-                <li className="mb-2"><a href="#faq" className="hover:text-red-500">FAQ</a></li>
-                <li className="mb-2"><a href="#pricing" className="hover:text-red-500">Pricing</a></li>
+                <li className="mb-2"><a href="#home" className="hover:text-blue-500">Home</a></li>
+                <li className="mb-2"><a href="#features" className="hover:text-blue-500">Features</a></li>
+                <li className="mb-2"><a href="#coach" className="hover:text-blue-500">About the Coach</a></li>
+                <li className="mb-2"><a href="#results" className="hover:text-blue-500">Client Results</a></li>
+                <li className="mb-2"><a href="#faq" className="hover:text-blue-500">FAQ</a></li>
+                <li className="mb-2"><a href="#pricing" className="hover:text-blue-500">Pricing</a></li>
               </ul>
             </motion.div>
 
@@ -57,7 +57,7 @@ class Footer extends React.Component {
               <h3 className="text-xl font-bold mb-4">Contact</h3>
               <ul className="text-gray-400">
               <li className="mb-2">
-                Email: <a href="mailto:support@diegotrainer.com" className="text-red-500 hover:underline">support@diegotrainer.com</a>
+                Email: <a href="mailto:support@diegotrainer.com" className="text-blue-500 hover:underline">support@diegotrainer.com</a>
               </li>
 
                 {/* <li className="mb-2">Phone: +1 (123) 456-7890</li>
@@ -80,7 +80,7 @@ class Footer extends React.Component {
                   target="_blank" 
                   rel="noopener noreferrer"
                   href="https://www.facebook.com/DiegoTrainer/"
-                  className="text-gray-400 hover:text-red-500"
+                  className="text-gray-400 hover:text-blue-500"
                 >
                   <FaFacebook className="w-6 h-6" />
                 </motion.a>
@@ -88,7 +88,7 @@ class Footer extends React.Component {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   href="#"
-                  className="text-gray-400 hover:text-red-500"
+                  className="text-gray-400 hover:text-blue-500"
                 >
                   <FaTwitter className="w-6 h-6" />
                 </motion.a> */}
@@ -98,7 +98,7 @@ class Footer extends React.Component {
                   target="_blank" 
                   rel="noopener noreferrer"
                   href="https://www.instagram.com/diego.trainer"
-                  className="text-gray-400 hover:text-red-500"
+                  className="text-gray-400 hover:text-blue-500"
                 >
                   <FaInstagram className="w-6 h-6" />
                 </motion.a>
@@ -106,7 +106,7 @@ class Footer extends React.Component {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   href="#"
-                  className="text-gray-400 hover:text-red-500"
+                  className="text-gray-400 hover:text-blue-500"
                 >
                   <FaLinkedin className="w-6 h-6" />
                 </motion.a> */}

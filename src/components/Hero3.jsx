@@ -12,7 +12,7 @@ class Hero3 extends React.Component {
         >
           <div className="max-w-6xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Burn Fat & Shed Pounds with <span className="text-red-500">Proven Science</span>
+              Burn Fat & Shed Pounds with <span className="text-blue-500">Proven Science</span>
             </h1>
             <p className="text-xl mb-8">
               Certified Fitness Coach Diego Trainer Delivers Ultra-Effective Fat-Loss Programs 
@@ -20,7 +20,7 @@ class Hero3 extends React.Component {
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
-              className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg text-lg"
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg"
             >
               Start Your 7-Day Fat Loss Jumpstart
             </motion.button>

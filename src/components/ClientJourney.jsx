@@ -17,7 +17,7 @@ class ClientJourney extends React.Component {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: 50 }}
               >
-                <div className="bg-red-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-blue-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   1
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Free Consultation</h3>
@@ -33,7 +33,7 @@ class ClientJourney extends React.Component {
                 initial={{ opacity: 0, y: 50 }}
                 transition={{ delay: 0.2 }}
               >
-                <div className="bg-red-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-blue-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   2
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Custom Plan Built</h3>
@@ -49,7 +49,7 @@ class ClientJourney extends React.Component {
                 initial={{ opacity: 0, y: 50 }}
                 transition={{ delay: 0.4 }}
               >
-                <div className="bg-red-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-blue-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   3
                 </div>
                 <h3 className="text-xl font-semibold mb-2">App Delivery</h3>
@@ -65,7 +65,7 @@ class ClientJourney extends React.Component {
                 initial={{ opacity: 0, y: 50 }}
                 transition={{ delay: 0.6 }}
               >
-                <div className="bg-red-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-blue-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   4
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Burn Fat Daily</h3>

@@ -12,20 +12,20 @@ class Hero4 extends React.Component {
           <div className="max-w-6xl mx-auto text-center">
             {/* <h1 className="text-5xl font-bold mb-6">
               Start Your 15-Day Free Trial + Get My  
-              <span className="text-red-500 block mt-3">"Fat Loss Nutrition Blueprint" eBook</span>
+              <span className="text-blue-500 block mt-3">"Fat Loss Nutrition Blueprint" eBook</span>
             </h1> */}
             <h1 className="text-5xl font-bold mb-6">
               Burn Fat with Diego Trainer<br />
-              <span className="text-red-500">Free 15-Day Trial</span> + eBook
+              <span className="text-blue-500">Free 15-Day Trial</span> + eBook
             </h1>
             {/* <div className="mb-8 flex items-center justify-center">
-              <GiBookStorm className="text-red-500 text-4xl mr-4" />
+              <GiBookStorm className="text-blue-500 text-4xl mr-4" />
               <p className="text-xl">
                 ($29 Value - Yours Free During Trial)
               </p>
             </div> */}
             <div className="mb-8 flex items-center justify-center space-x-4">
-              <VscBook className="text-red-500 text-4xl" />
+              <VscBook className="text-blue-500 text-4xl" />
               <span className="text-xl">"Fat Loss Nutrition Blueprint" eBook Included</span>
             </div>
             <a 
@@ -33,7 +33,7 @@ class Hero4 extends React.Component {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg text-lg mb-4">
+              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg mb-4">
                 Claim Free Trial & eBook →
               </button>
             </a>

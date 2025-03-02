@@ -53,11 +53,11 @@ class Features extends React.Component {
                 viewport={{ once: true }}
                 className={`text-center p-6 rounded-xl shadow-lg hover:shadow-xl transition-all ${
                   feature.title === "On-Going Expert Support" 
-                    ? "bg-red-50 border-2 border-red-200" 
+                    ? "bg-blue-50 border-2 border-blue-200" 
                     : "bg-white"
                 }`}
               >
-                <div className="text-4xl text-red-500 mb-4 flex justify-center">
+                <div className="text-4xl text-blue-500 mb-4 flex justify-center">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
@@ -65,7 +65,7 @@ class Features extends React.Component {
                 
                 {feature.title === "On-Going Expert Support" && (
                   <div className="mt-4">
-                    <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-semibold">
+                    <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">
                       Coach-Powered Progress
                     </span>
                   </div>
@@ -76,7 +76,7 @@ class Features extends React.Component {
 
           {/* Visual Connector for Odd Numbered Grid */}
           <div className="mt-8 flex justify-center">
-            <div className="h-1 w-32 bg-red-100 rounded-full" />
+            <div className="h-1 w-32 bg-blue-100 rounded-full" />
           </div>
         </div>
       </section>

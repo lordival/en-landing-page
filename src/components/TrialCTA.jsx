@@ -13,17 +13,17 @@ class TrialCTA extends React.Component {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
                 <div>
-                  <GiWeightLiftingUp className="text-red-500 text-4xl mx-auto mb-4" />
+                  <GiWeightLiftingUp className="text-blue-500 text-4xl mx-auto mb-4" />
                   <h3 className="text-xl font-semibold">Full App Access</h3>
                   <p className="text-gray-600">14 Days of Workouts + Tracking + Coach Support</p>
                 </div>
                 <div>
-                  <FaBookReader className="text-red-500 text-4xl mx-auto mb-4" />
+                  <FaBookReader className="text-blue-500 text-4xl mx-auto mb-4" />
                   <h3 className="text-xl font-semibold">Free eBook</h3>
                   <p className="text-gray-600">"Fat-Loss Nutrition Blueprint" ($29 value)</p>
                 </div>
                 <div>
-                  <FaClock className="text-red-500 text-4xl mx-auto mb-4" />
+                  <FaClock className="text-blue-500 text-4xl mx-auto mb-4" />
                   <h3 className="text-xl font-semibold">No Risk</h3>
                   <p className="text-gray-600">Cancel anytime in first 14 days</p>
                 </div>
@@ -33,7 +33,7 @@ class TrialCTA extends React.Component {
                 target="_blank" 
                 rel="noopener noreferrer"
                 >
-              <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg text-lg">
+              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg">
                 Start Trial & Download eBook Now
               </button>
               </a>

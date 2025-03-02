@@ -32,7 +32,7 @@ class HowItWorks extends React.Component {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="w-16 h-16 bg-red-500 rounded-full text-white text-2xl font-bold flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-blue-500 rounded-full text-white text-2xl font-bold flex items-center justify-center mx-auto mb-4">
                   {step.number}
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{step.title}</h3>

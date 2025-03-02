@@ -17,7 +17,7 @@ class Testimonials3 extends React.Component {
                 whileHover={{ scale: 1.02 }}
               >
                 <div className="flex items-center mb-4">
-                  <div className="bg-red-500 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                  <div className="bg-blue-500 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mr-4">
                     -28lbs
                   </div>
                   <div>
@@ -36,7 +36,7 @@ class Testimonials3 extends React.Component {
                 whileHover={{ scale: 1.02 }}
               >
                 <div className="flex items-center mb-4">
-                  <div className="bg-red-500 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                  <div className="bg-blue-500 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mr-4">
                     -34lbs
                   </div>
                   <div>
